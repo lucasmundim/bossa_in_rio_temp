@@ -15,8 +15,8 @@ development:
   database: bossa_in_rio_development
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: sf3jf2zi
+  host: 127.0.0.1
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -28,8 +28,8 @@ test:
   database: bossa_in_rio_test
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: sf3jf2zi
+  host: 127.0.0.1
 
 production:
   adapter: mysql2
@@ -38,5 +38,5 @@ production:
   database: bossa_in_rio_production
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: sf3jf2zi
+  host: 127.0.0.1
