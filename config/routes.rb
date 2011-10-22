@@ -1,4 +1,15 @@
 BossaInRio::Application.routes.draw do
+  resources :pages do
+    collection do
+      get :home
+      get :location
+      get :pictures
+      get :reservations
+      get :contact
+      get :texts
+    end
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
