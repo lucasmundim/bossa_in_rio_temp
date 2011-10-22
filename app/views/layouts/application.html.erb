@@ -36,7 +36,8 @@
 
   <div class="menu">
     <ul>
-      <li><a href="index.html" class="subMenu" rel="subMenuHostel">O HOSTEL</a>
+      <li>
+        <%= link_to 'O HOSTEL', texts_pages_path, :class => 'subMenu', :rel => 'subMenuHostel' %>
         <ul id="subMenuHostel" style="display:none;">
           <li><a href="#">ITEM 1</a></li>
           <li><a href="#">ITEM 2</a></li>
