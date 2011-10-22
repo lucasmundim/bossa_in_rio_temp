@@ -34,8 +34,8 @@ test:
 production:
   encoding: unicode
   adapter: postgresql
-  username: username
+  username: jpsilxxvqg
   port: 5432
-  host: hostname
-  database: database
-  password: password
+  host: ec2-107-22-249-125.compute-1.amazonaws.com
+  database: jpsilxxvqg
+  password: mOV5KQOCupSoE5m0-8k7
