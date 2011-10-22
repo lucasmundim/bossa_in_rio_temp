@@ -32,11 +32,10 @@ test:
   host: 127.0.0.1
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: bossa_in_rio_production
-  pool: 5
-  username: root
-  password: sf3jf2zi
-  host: 127.0.0.1
+  encoding: unicode
+  adapter: postgresql
+  username: username
+  port: 5432
+  host: hostname
+  database: database
+  password: password
